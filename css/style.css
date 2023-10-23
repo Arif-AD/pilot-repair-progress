@@ -370,6 +370,18 @@
   }
 }
 
+@media (max-width:570px) {
+  .hero {
+    margin-top: 80px;
+    height: 380px;
+    border-radius: 10px 10px 0px 0px;
+    &::before {
+      content: '';
+      border-radius: 10px 10px 0px 0px;
+    }
+  }
+}
+
 @media (max-width:435px) {
   /* hero */
 
