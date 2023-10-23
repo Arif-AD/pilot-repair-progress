@@ -331,6 +331,11 @@
 
   .hero {
     height: 380px;
+    border-radius: 20px;
+    &::before {
+      content: '';
+      border-radius: 20px;
+    }
   }
 
   .hero .hero-text {
